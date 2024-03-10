@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./icons/icon.png" type="image/x-icon">
+
+    <title>Controller15</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+    
+    <!-- styles -->
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/bootstrap.css">
+
+</head>
+<body>
+    <div class="sidePartition"></div>
+    <div class="MainPartition">
+        <h3 class="heading">Effin GLitch <span class="badge rounded-pill bg-light text-dark controllerIcon">Controller</span></h3>
+        
+        <br>
+        <div class="card">
+            <div class="card-body">
+             <!-- connection setup-->
+            <input type="text" class="form-control input" id="urlInput" placeholder="url" autocomplete="off"> 
+            <input type="password" class="form-control input" id="passwordInput" placeholder="password">
+            <button type="button" class="btn btn-success connectButton"  id="connectButton">Connect</button>
+            <button type="button" class="btn btn-danger connectButton disconnectButton"  id="disconnectButton">Disconnect</button>
+            <span id="connectionStatus" class="status">Not Connected</span>
+            <br>    
+            </div>
+          </div>
+            <br>
+
+            <div class="card">
+                <div class="card-body">
+                  <!--target select-->
+                        <label for="targetsSelector">Select target : </label><br>
+                        <select  id="targetsSelector" class="selector form-select">
+                        </select>
+                        <br>
+                        <!--command  select-->
+                        <label for="commandsSelector">Select command : </label>
+                        <select  id="commandsSelector" class="selector form-select">
+                        </select>
+                        <br>
+                        <button id="sendButton" class="btn btn-success sendButton" type="button">Send</button>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body a">
+                    <span id="notification" class=" notification">abcd connected </span>
+                </div>
+              </div>
+            
+            <br>
+            <div class="card outputCard">
+                <div class="card-body ">
+                 <!--output text area-->
+            <textarea id="output" class="form-control output" disabled >
+           
+            </textarea>
+                </div>
+              </div>
+            
+
+            <br>
+            <div class="card">
+                <div class="card-body">
+                    <!-- other controls -->
+            <button type="button" id="clearButton" class="btn btn-danger clearButton">Clear</button>
+                </div>
+              </div>
+            
+    </div>
+    <div class="sidePartition"></div>
+    
+
+    <script src="crypto.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

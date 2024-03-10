@@ -1,0 +1,132 @@
+body{
+    display: flex;
+    flex-direction: row;
+    background-color: #121212 !important;
+}
+/* side part */
+.sidePartition{
+    flex:5;
+}
+/* main part */
+.MainPartition{
+    flex: 6;
+    padding: 20px ;
+    padding-top: 0px;
+    
+}
+.card{
+    background-color: #1e1e1e !important;
+    color: antiquewhite !important;
+}
+
+.heading{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: antiquewhite ;
+    text-align: center !important;
+}
+.input{
+    border: 2px solid #6f6f6f !important;
+    margin-bottom: 8px;
+    background-color: #1d1d1d !important;
+    color: antiquewhite !important;
+    box-shadow: none !important;
+}
+
+.input:focus{
+    background-color: #1d1d1d !important;
+}
+
+.input::placeholder{
+    color: #6f6f6f !important;
+}
+
+.form-control.autocomplete-selected {
+    background-color: #fff; /* Set your desired background color */
+    border-color: #ced4da; /* Set your desired border color */
+    box-shadow: none; /* Remove box shadow if desired */
+}
+
+.connectButton,.sendButton{
+    width: 100% !important;
+    text-align: center !important;
+    margin-bottom: 10px !important;
+    color: #1d1d1d !important;
+    background-color: antiquewhite !important;
+    border: 2px solid #1e1e1e !important;
+}
+
+.status{
+    color: antiquewhite !important;
+}
+
+.selector{
+    color: antiquewhite !important;
+    width: 100%;
+    border: 2px solid #6f6f6f !important;
+    background-color: #1d1d1d !important;
+}
+.notification{
+    font-size: 14px;
+    text-align: center !important;
+}
+.output{
+    width: 100% !important;
+    height: 100% !important;
+    box-shadow: none !important;
+    resize: none !important;
+    background-color: #1e1e1e !important;
+    border: 2px solid #6f6f6f !important;
+    color: antiquewhite !important;
+}
+.outputCard{
+    height: 50% !important;
+}
+
+.clearButton{
+    width: 100% !important;
+}
+.controllerIcon{
+    font-size: 16px !important;
+}
+
+
+ /* width */
+ ::-webkit-scrollbar {
+    width: 5px;
+ }
+/* Track */
+ ::-webkit-scrollbar-track {
+   background: #1d1d1d;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+   background: #1e1e1e;
+}
+
+/* Handle on hover */
+ ::-webkit-scrollbar-thumb:hover {
+    background: #1e1e1e;
+}
+
+/* for mobile */
+
+@media only screen and (max-width: 600px) {
+    .sidePartition{
+        display: none;
+    }
+  }
+
+
+/* Media query for laptop screens */
+@media only screen and (min-width: 1024px) {
+            /* main part */
+        .MainPartition{
+            flex: 4;
+            padding: 20px !important;
+            padding-top: 0px;
+            
+        }
+  }

